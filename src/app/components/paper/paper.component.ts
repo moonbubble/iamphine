@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-paper',
   templateUrl: './paper.component.html',
-  styleUrls: ['./paper.component.css']
+  styleUrls: ['./paper.component.css'],
 })
 export class PaperComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
