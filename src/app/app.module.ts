@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -7,7 +8,7 @@ import { PaperComponent } from './components/paper/paper.component';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, PaperComponent],
-  imports: [BrowserModule],
+  imports: [BrowserModule, CommonModule],
   providers: [],
   bootstrap: [AppComponent],
 })
